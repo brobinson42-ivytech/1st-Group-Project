@@ -11,6 +11,6 @@ else:
     gross = 40 * 29.28
     over = hours_worked - 40
     overtime = over * (29.28 * 1.5)
-    total = gross + overtime
-    print(f"You made ${total:.2f} this week")
+    gross = gross + overtime
+    print(f"You made ${gross:.2f} this week")
 input("Press enter to continue")
