@@ -9,3 +9,6 @@ else:
     total = gross + overtime
     print(f"You made ${total:.2f} this week")
 input("Press enter to continue")
+if hours_worked < 0:
+ print("Hours worked cannot be negative. Please enter a valid number.")
+ break
